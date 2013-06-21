@@ -152,3 +152,8 @@ LOGGING = {
         },
     }
 }
+
+# Heroku Settings Here
+# if 'PLAT' in environ and environ['PLAT'] == 'HEROKU':
+import dj_database_url
+DATABASES['default'] = dj_database_url.config()
