@@ -1,0 +1,7 @@
+Django==1.5.1
+dj-database-url==0.2.1
+djangorestframework==2.3.5
+ipdb==0.7
+ipython==0.13.2
+psycopg2==2.5
+wsgiref==0.1.2
